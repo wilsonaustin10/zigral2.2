@@ -1,0 +1,46 @@
+{
+    "api": {
+        "anthropic_api_key": null,
+        "requests_per_minute": 60,
+        "burst_limit": 10,
+        "max_retries": 3,
+        "retry_delay": 1.0,
+        "timeout": 30.0
+    },
+    "model": {
+        "main_model": "claude-3-sonnet-20240229",
+        "fast_model": "claude-3-haiku-20240307",
+        "vision_model": "claude-3-opus-20240229",
+        "temperature": 0.7,
+        "max_tokens": 2000
+    },
+    "auth": {
+        "google_email": null,
+        "google_password": null,
+        "google_2fa_enabled": false,
+        "google_2fa_timeout": 300,
+        "auto_login_retry": 3,
+        "session_timeout": 3600
+    },
+    "browser": {
+        "headless": false,
+        "auto_login": true,
+        "viewport_width": 1920,
+        "viewport_height": 1080,
+        "locale": "en-US",
+        "timezone": "UTC",
+        "geolocation": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+        },
+        "permissions": [],
+        "proxy": null,
+        "user_data_dir": "/Users/austinwilson/.lam/browser_data",
+        "debug_port": null,
+        "profile_name": null,
+        "ignore_default_args": [],
+        "downloads_path": "downloads",
+        "slow_mo": 0,
+        "bypass_csp": true
+    }
+} 
